@@ -1,0 +1,28 @@
+// Options
+$enable-shadows:     true;
+$enable-gradients:   true;
+$min-contrast-ratio:   2;
+
+// colors
+$primary:       #55d41a;
+$secondary:     #da5b4a;
+$highlight:     #d84867;
+$accent-1:      #2b2b2b;
+$accent-2:      #dee2e6;
+$accent-3:      #495057;
+$light:         #f1f3f5;
+$dark:          #0a0a0a;
+
+$theme-colors: (
+  "primary":    $primary,
+  "secondary":  $secondary,
+  "highlight":  $highlight,
+  "accent-1":   $accent-1,
+  "accent-2":   $accent-2,
+  "accent-3":   $accent-3,
+  "light":      $light,
+  "dark":       $dark
+);
+  
+$body-bg:       $dark;
+$body-color:    $dark;
